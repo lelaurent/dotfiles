@@ -1,0 +1,8 @@
+function fn { 
+        find -iname "$@"
+}
+alias ..="cd .."
+
+alias l="ls -la"
+export NODE_ENV="development"
+alias gac="git add . && git commit -m step"
