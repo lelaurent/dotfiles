@@ -1,8 +1,15 @@
+. ~/dotfiles/.bashrc.nvm
+
 function fn { 
-        find -iname "$@"
+        find -iname "*$@*"
 }
 alias ..="cd .."
 
 alias l="ls -la"
 export NODE_ENV="development"
 alias gac="git add . && git commit -m step"
+alias sagi="sudo apt install"
+alias sagrm="sudo apt remove"
+alias agrm="sudo apt remove"
+alias acse="apt search"
+alias guc="git reset --soft HEAD~1"
